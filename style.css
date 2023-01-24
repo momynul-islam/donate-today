@@ -82,7 +82,7 @@ section {
   font-size: 2rem;
   font-weight: 700;
   background-color: #ff5959;
-  padding: 1.6rem 1.2rem;
+  padding: 1.2rem 1.6rem;
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -253,3 +253,46 @@ section {
 }
 
 /* ***** section contribute end ***** */
+
+/* ***** section subscribe start ***** */
+.section-subscribe {
+}
+
+.section-subscribe--des {
+  text-align: center;
+}
+
+.section-subscribe--des h2 {
+  font-size: 4.5rem;
+  color: #121212;
+}
+
+.section-subscribe--des p {
+  color: #707070;
+  margin: 2rem auto;
+  width: 60rem;
+}
+
+form {
+  width: 80rem;
+  background-color: #fff4d6;
+  margin: 5rem auto;
+  padding: 5rem 8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 1.2rem 1.6rem;
+  width: 27rem;
+  border: none;
+}
+
+.subscribe {
+  border-radius: 0;
+}
+
+/* ***** section subscribe end ***** */
