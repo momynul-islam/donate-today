@@ -17,7 +17,23 @@ body {
 /* ***** Basic end ***** */
 
 /* ***** Utils start ***** */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
 
+p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+section {
+  margin-bottom: 6rem;
+}
 /* ***** Utils end ***** */
 
 /* ***** section top start ***** */
@@ -55,6 +71,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   border: none;
   color: #fff;
@@ -63,5 +80,131 @@ body {
   background-color: #ff5959;
   padding: 1.6rem 1.2rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 /* ***** section top end ***** */
+
+/* ***** section donate start ***** */
+.section-donate {
+}
+
+.section-donate--des {
+  text-align: center;
+}
+
+.section-donate--des h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #121212;
+}
+
+.section-donate--des p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.section-donate--amount {
+  width: 80%;
+  margin: 5rem auto;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-donate--amount p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.active-amount {
+  color: #ff5959;
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  align-self: center;
+  justify-content: center;
+}
+
+#amount {
+  display: block;
+  color: #b3b3b3;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  width: 75rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.btn-donate {
+  display: block;
+  border: none;
+  margin: 3rem auto;
+}
+/* ***** section donate end ***** */
+
+/* ***** section plan start ***** */
+.section-plan {
+}
+
+.section-plan--des {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-plan--des h2 {
+  font-size: 4.5rem;
+  color: #121212;
+}
+
+.section-plan--des p {
+  color: #707070;
+  width: 60rem;
+  margin: 2rem auto;
+}
+
+.plan-list {
+  display: flex;
+  gap: 5rem;
+  margin: 5rem 0;
+  justify-content: center;
+}
+
+.plan-item {
+  border-radius: 0.5rem;
+  width: 35rem;
+  height: 35rem;
+  padding: 6rem 2rem;
+}
+
+.item-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+.item-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+.item-3 {
+  background-color: #fff4d6;
+}
+
+.plan-item h3 {
+  font-size: 2.4rem;
+  color: #121212;
+  margin: 3rem 0;
+}
+
+.plan-item p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #707070;
+}
+
+.icon {
+}
+/* ***** section plan end ***** */
