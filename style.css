@@ -296,3 +296,24 @@ form {
 }
 
 /* ***** section subscribe end ***** */
+
+/* ***** footer start ***** */
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 4rem;
+}
+
+footer h2 {
+  font-size: 4.4rem;
+  color: #ff5959;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #d9dbe1;
+  margin-top: 3rem;
+}
+/* ***** footer end ***** */
