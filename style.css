@@ -31,8 +31,12 @@ p {
   line-height: 2.8rem;
 }
 
+img {
+  width: 100%;
+}
+
 section {
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 /* ***** Utils end ***** */
 
@@ -206,5 +210,46 @@ section {
 }
 
 .icon {
+  width: 4.5rem;
+  height: 4.5rem;
 }
 /* ***** section plan end ***** */
+
+/* ***** section contribute start ***** */
+.section-contribute {
+}
+
+.contribute-part {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 6rem;
+}
+
+.contribute-part--img {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 0.5rem;
+}
+
+.contribute-part--img img {
+  width: 50rem;
+  height: 45rem;
+  border-radius: 0.5rem;
+}
+
+.contribute-part--des {
+  width: 50rem;
+}
+
+.contribute-part--des h2 {
+  font-size: 4.5rem;
+  color: #121212;
+}
+
+.contribute-part--des p {
+  color: #707070;
+  margin: 2rem 0;
+}
+
+/* ***** section contribute end ***** */
